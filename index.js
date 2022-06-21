@@ -137,7 +137,7 @@ for (let i = 0; i < pets.length; i++) {
 // }
 
 // Indices =>        0           1             2
-const flavors = ["Vanilla", 'Chocolate', 'Strawberry', 'Cookie Dough', 'Mango']
+const flavors = ["Vanilla", 'Chocolate', 'Strawberry']
 
 // .length will give you the length of the array. In other words, how many elements are in the array.
 console.log(flavors.length) // => prints out 3
