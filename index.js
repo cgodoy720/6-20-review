@@ -108,8 +108,43 @@ for (let i = 0; i < pets.length; i++) {
     // }
 
     // For Of, iterating over the array of friends for each pet 
-    for (const friend of pets[i].friends) {
-        console.log(friend)
-    }
+    // for (const friend of pets[i].friends) {
+    //     console.log(friend)
+    // }
 
+}
+
+
+
+// For Loops
+// Loops are used to run a piece of code multiple times in a range or for an array/object
+
+// Three pieces of a For Loop => goes inside of parens
+// 1. Iterator starting point => where our for loop starts
+// 2. Condition for our for loop running, and will stop when the condition is no longer true
+// 3. What to do w the iterator after each loop/iteration
+
+
+// Counting up from zero, printing out each value for i
+// for(let i = 0; i <= 10; i++){
+//     console.log(i)
+// }
+
+
+// Counting down from 100, by 20s
+// for(let i = 100; i > 0; i-=20){
+//     console.log(i)
+// }
+
+// Indices =>        0           1             2
+const flavors = ["Vanilla", 'Chocolate', 'Strawberry', 'Cookie Dough', 'Mango']
+
+// .length will give you the length of the array. In other words, how many elements are in the array.
+console.log(flavors.length) // => prints out 3
+
+
+// Last element in the array will ALWAYS be 1 less than the length of the array.
+for(let i = 0; i < flavors.length; i++){
+    console.log(i)
+    // console.log(flavors[i])
 }
